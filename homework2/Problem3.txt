@@ -1,0 +1,5 @@
+What is an instance variable in Ruby?
+An instanace variable can be used in any method inside a class. Unlike local variables, instance variables can be used in any method scope inside the class. This can be done by referencing the instance method using @ sign. All methods of the class uses the instance variable while local variables lives inside each method's local scope and cannot be used in other methods even inside the same class. This is helpful because it code dry where the programmer wouldnt have to repeat setting the same variable in every method inside a class. However, instance variables cannot be called from outside the class.
+
+Describe a method from the Integer class. 
+I chose to describe downto method. This is a method that uses looping to iterate value passed in a block from the given int to the value in a decreasing order. For example if given block is 7.downto(1) then the block will output (7,6,5,4,3,2,1). 
