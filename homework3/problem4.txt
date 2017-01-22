@@ -1,0 +1,5 @@
+What is the difference between an HTTP GET request and a POST request?
+
+A get request will allow the user to receive data. multiple request to the URL can be made for the same data and there will be no harm. the Data requested in the get request is in the URL. 
+
+A post request is the write data. It can be harmful to make the same post request on a URL multiple times. There is usually a warning from the browser. Post requests are not secured. The Data for the post request is in the body of the request rather than the URL. 
