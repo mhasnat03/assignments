@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
-  get('hello' => 'home#index1')
-  get('hello again' => 'home#index2)'
+  get('welcome' => 'homework#index1')
+ end
+
+Rails.application.routes.draw do
+  get('goodbye' => 'homework#index2')
 end
