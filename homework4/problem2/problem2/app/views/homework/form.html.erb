@@ -1,0 +1,20 @@
+<h1>SUBMIT YOUR FORM</h1>
+
+<%= form_tag('/thanks') do %>
+	<p>
+	<%= label_tag(:Email, 'Email: ') %>
+	<%= text_field_tag(:Email, nil, :placeholder => 'Your Email here!') %>
+	</p>
+
+	<p>
+	<%= label_tag(:Name, 'Name: ') %>
+	<%= text_field_tag(:Name, nil, :placeholder => 'Your full name here!') %>
+	</p>
+
+	<p>
+	<%= label_tag(:Message, 'Message: ') %>
+	<%= text_field_tag(:Message, nil, :placeholder => 'Your message here!') %>
+	</p>
+
+	<%= submit_tag('Submit') %>
+<% end %>
