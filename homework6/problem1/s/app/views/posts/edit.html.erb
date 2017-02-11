@@ -1,0 +1,19 @@
+<h1>Edit This Post</h1>
+
+<%= form_for(@post) do |f| %>
+<p>
+<%= f.label(:title) %>
+<%= f.text_field(:title) %>
+</p>
+<p>
+<%= f.label(:body) %>
+<%= f.text_area(:body) %>	
+</p>
+<p>
+<%= f.label(:image) %>
+<%= f.text_area(:image) %>	
+</p>
+<p> <%= f.submit %></p>
+
+<% end %>
+
