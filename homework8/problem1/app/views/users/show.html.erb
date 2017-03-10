@@ -9,5 +9,7 @@
 <% end %>
 <% if (user_signed_in?) && (current_user.admin? || current_user == @user) %>
 	<%= link_to('Edit User', edit_user_path) %>
+	<%= link_to('Add a new Hotel', new_hotel_path) %>
+	<%= link_to('edit a Hotel', edit_hotel_path) %>
 <% else %>
 <% end %>
